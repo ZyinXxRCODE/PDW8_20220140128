@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ikan Hias</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .navbar {
+        background-color: #ff000098;
+      }
+      .navbar-brand,
+      .nav-link {
+        color: white !important;
+      }
+      .nav-link.active {
+        font-weight: bold;
+      }
+      .card {
+        margin: auto;
+      }
+      .form-check-label {
+        margin-left: 5px;
+      }
+      .container {
+        max-width: 800px;
+      }
+      h2 {
+        margin-bottom: 20px;
+      }
+      .form-check-input:checked {
+        background-color: #007bff;
+        border-color: #007bff;
+      }
+      .form-check-input:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+      }
+      .btn-submit {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 20px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      .btn-submit:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <!-- NAvbar -->
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #000000">  
+        <a class="navbar-brand" href="#">Ikan cupang</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#biodata">Tentang</a>
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#fc1010"
+        fill-opacity="1"
+        d="M0,64L24,90.7C48,117,96,171,144,186.7C192,203,240,181,288,186.7C336,192,384,224,432,245.3C480,267,528,277,576,272C624,267,672,245,720,240C768,235,816,245,864,218.7C912,192,960,128,1008,138.7C1056,149,1104,235,1152,256C1200,277,1248,235,1296,197.3C1344,160,1392,128,1416,112L1440,96L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"
+      ></path>
+    </svg>
+<!-- end navbar -->
+
+<!-- Home -->
+    <section id="home" class="py-5">
+      <div class="container">
+        <div class="card" style="width: 700px">
+          <img src="assets/worachat-sodsri-nCz_ZgnbtaE-unsplash.jpg" class="card-img-top" alt="cupang" />
+          <div class="card-body">
+            <p class="card-text">
+              Ikan adalah kelompok hewan vertebrata air yang memiliki tubuh yang umumnya tertutupi oleh sisik dan bernapas dengan menggunakan insang. Mereka termasuk dalam kelas Pisces dan hidup di berbagai habitat air, baik air tawar
+              maupun air laut.
+            </p>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- end -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fc1010"
+          fill-opacity="1"
+          d="M0,128L24,112C48,96,96,64,144,53.3C192,43,240,53,288,80C336,107,384,149,432,170.7C480,192,528,192,576,176C624,160,672,128,720,128C768,128,816,160,864,181.3C912,203,960,213,1008,197.3C1056,181,1104,139,1152,117.3C1200,96,1248,96,1296,80C1344,64,1392,32,1416,16L1440,0L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"
+        ></path>
+      </svg>
+    
+      <section id="about" class="py-5" >
+        <div class="container">
+        <h2>Jenis Ikan</h2>
+        <p>Bagian ini berisi informasi tentang ikan hias dan berbagai aspek menarik lainnya.</p>
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Pilih Jenis Ikan Hias Favorit Anda:</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="jenisIkan" id="ikanCupang" value="cupang" checked />
+              <label class="form-check-label" for="ikanCupang"> Ikan Cupang </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="jenisIkan" id="ikanKoi" value="koi" />
+              <label class="form-check-label" for="ikanKoi"> Ikan Koi </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="jenisIkan" id="ikanGuppy" value="guppy" />
+              <label class="form-check-label" for="ikanGuppy"> Ikan Guppy </label>
+            </div>
+            
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Apa yang Anda sukai dari ikan hias?</label>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="warnaIndah" value="warnaIndah" />
+              <label class="form-check-label" for="warnaIndah"> Warna yang Indah </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="perawatanMudah" value="perawatanMudah" />
+              <label class="form-check-label" for="perawatanMudah"> Perawatan yang Mudah </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gerakanElegan" value="gerakanElegan" />
+              <label class="form-check-label" for="gerakanElegan"> Gerakan yang Elegan </label>
+            </div>
+          </div>
+          <div class="row mb-4">
+            <div class="col text-center">
+              <h2>Pesan Ikan</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="name" />
+                </div>
+                <div class="mb-3">
+                  <label for="phone" class="form-label">Phone Number</label>
+                  <input type="tel" class="form-control" id="phone" />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+              </form>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      WhatsApp
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">You can contact us via WhatsApp at <code>+62 81328619818</code>. Please send your message once for a prompt response.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Instagram
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">You can also reach us via Instagram at <code>@iqwa.a</code>.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Email
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">You can also reach us via email at <code>ramahs49@gmail.com</code>.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </form>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fc1010" fill-opacity="1" d="M0,256L10.4,261.3C20.9,267,42,277,63,250.7C83.5,224,104,160,125,128C146.1,96,167,96,188,117.3C208.7,139,230,181,250,192C271.3,203,292,181,313,181.3C333.9,181,355,203,376,202.7C396.5,203,417,181,438,149.3C459.1,117,480,75,501,101.3C521.7,128,543,224,563,272C584.3,320,605,320,626,293.3C647,267,668,213,689,192C709.6,171,730,181,751,202.7C772.2,224,793,256,814,250.7C834.8,245,856,203,877,176C897.4,149,918,139,939,117.3C960,96,981,64,1002,64C1022.6,64,1043,96,1064,122.7C1085.2,149,1106,171,1127,154.7C1147.8,139,1169,85,1190,90.7C1210.4,96,1231,160,1252,208C1273,256,1294,288,1315,277.3C1335.7,267,1357,213,1377,165.3C1398.3,117,1419,75,1430,53.3L1440,32L1440,0L1429.6,0C1419.1,0,1398,0,1377,0C1356.5,0,1336,0,1315,0C1293.9,0,1273,0,1252,0C1231.3,0,1210,0,1190,0C1168.7,0,1148,0,1127,0C1106.1,0,1085,0,1064,0C1043.5,0,1023,0,1002,0C980.9,0,960,0,939,0C918.3,0,897,0,877,0C855.7,0,835,0,814,0C793,0,772,0,751,0C730.4,0,710,0,689,0C667.8,0,647,0,626,0C605.2,0,584,0,563,0C542.6,0,522,0,501,0C480,0,459,0,438,0C417.4,0,397,0,376,0C354.8,0,334,0,313,0C292.2,0,271,0,250,0C229.6,0,209,0,188,0C167,0,146,0,125,0C104.3,0,83,0,63,0C41.7,0,21,0,10,0L0,0Z"></path></svg>
+    <section id="biodata" class="py-5">
+      <div class="container">
+        <h2>Tentang</h2>
+        <p>
+          Cupang, ikan laga, atau ikan adu siam (Betta sp.) adalah ikan air tawar yang habitat asalnya adalah beberapa negara di Asia Tenggara, antara lain Thailand, Malaysia, Brunei Darussalam, Singapura, Vietnam, dan Indonesia. Ikan ini
+          mempunyai bentuk dan karakter yang unik dan cenderung agresif dalam mempertahankan wilayahnya. Di kalangan penggemar, ikan cupang umumnya terbagi atas tiga golongan, yaitu cupang hias, cupang aduan, dan cupang liar. Di Indonesia
+          terdapat cupang asli, salah satunya adalah Betta channoides yang ditemukan di Pampang, Kalimantan Timur. Ikan cupang adalah salah satu ikan yang kuat bertahan hidup dalam waktu lama sehingga apabila ikan tersebut ditempatkan di
+          wadah dengan volume air sedikit dan tanpa adanya alat sirkulasi udara (aerator), ikan ini masih dapat bertahan hidup.
+        </p>
+      </div>
+      
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fc1010" fill-opacity="1" d="M0,128L10.4,154.7C20.9,181,42,235,63,224C83.5,213,104,139,125,112C146.1,85,167,107,188,122.7C208.7,139,230,149,250,154.7C271.3,160,292,160,313,160C333.9,160,355,160,376,138.7C396.5,117,417,75,438,58.7C459.1,43,480,53,501,69.3C521.7,85,543,107,563,144C584.3,181,605,235,626,240C647,245,668,203,689,181.3C709.6,160,730,160,751,154.7C772.2,149,793,139,814,122.7C834.8,107,856,85,877,69.3C897.4,53,918,43,939,32C960,21,981,11,1002,5.3C1022.6,0,1043,0,1064,32C1085.2,64,1106,128,1127,154.7C1147.8,181,1169,171,1190,154.7C1210.4,139,1231,117,1252,96C1273,75,1294,53,1315,64C1335.7,75,1357,117,1377,133.3C1398.3,149,1419,139,1430,133.3L1440,128L1440,320L1429.6,320C1419.1,320,1398,320,1377,320C1356.5,320,1336,320,1315,320C1293.9,320,1273,320,1252,320C1231.3,320,1210,320,1190,320C1168.7,320,1148,320,1127,320C1106.1,320,1085,320,1064,320C1043.5,320,1023,320,1002,320C980.9,320,960,320,939,320C918.3,320,897,320,877,320C855.7,320,835,320,814,320C793,320,772,320,751,320C730.4,320,710,320,689,320C667.8,320,647,320,626,320C605.2,320,584,320,563,320C542.6,320,522,320,501,320C480,320,459,320,438,320C417.4,320,397,320,376,320C354.8,320,334,320,313,320C292.2,320,271,320,250,320C229.6,320,209,320,188,320C167,320,146,320,125,320C104.3,320,83,320,63,320C41.7,320,21,320,10,320L0,320Z"></path></svg>
+<!-- my css -->
+<link rel="stylesheet" href="style.css" />
+<!-- end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
+</html>
